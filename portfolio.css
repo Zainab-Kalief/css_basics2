@@ -1,0 +1,214 @@
+/*So each element assumes the total width/height*/
+#header{
+  background-color: #fdfdfd;
+  position: relative;
+  width: 1084px;
+}
+/*adding space between selectors says any child of the parent*/
+/*while adding > says direct child of parent*/
+  #header h1{
+    font-size: 2em;
+    /*display: inline-block;*/
+    /*position: absolute;*/
+    /*left: 20px;
+    margin-top: 10px;*/
+    font-family: sans-serif;
+  }
+  #header h2{
+    /*display: inline-block;*/
+    position: absolute;
+    right: 25px;
+    top: 0;
+    font-family: sans-serif;
+  }
+
+  #body{
+    background: linear-gradient(#3f2c33, #85777f, #3f2c33);
+    width: 1084px;
+  }
+
+#top-content{
+  display: block;
+  background: linear-gradient(#3f2c33, #85777f, #3f2c33);
+  height: 320px;
+}
+#profile-pic{
+  width: 450px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  height: 270px;
+  border: 5px solid #bdbdbd;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+  #profile-pic img {
+    width: inherit;
+    height: inherit;
+  }
+
+#about{
+  width: 560px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+  height: 280px;
+  background-color: #e6dce6;
+  position: relative;
+}
+
+#about header {
+  position: absolute;
+  top: 0px;
+  background: linear-gradient(#c0c0c4, #7e7d87, #c0c0c4);
+  width: 560px;
+  height: 50px;
+  display: block;
+
+}
+
+#about header h3{
+  margin-left: 10px;
+  color: white;
+}
+#about-body{
+  position: absolute;
+  bottom: 15px;
+  left: 10px;
+}
+#about-body a{
+  color: black;
+}
+#list-view{
+  background: linear-gradient(#3f2c33, #85777f, #3f2c33);
+  height: 650px;
+  position: relative;
+}
+#portfolio-1{
+  background-color: #e6dce6;
+  width: 332px;
+  height: 620px;
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  position: relative;
+}
+#portfolio-2{
+  background-color: #e6dce6;
+  width: 332px;
+  height: 620px;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  position: absolute;
+  left: 364px;
+}
+#portfolio-3{
+  background-color: #e6dce6;
+  width: 332px;
+  height: 620px;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  position: absolute;
+  left: 720px;
+}
+.portfolio-header{
+  background: linear-gradient(#c0c0c4, #7e7d87, #c0c0c4);
+  width: 332px;
+  height: 50px;
+  position: absolute;
+  top: 0px;
+}
+.portfolio-header h3{
+  color: white;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.list-body{
+  position: relative;
+  left: 3px;
+  height: 108px;
+  width: 320px;
+  overflow: scroll;
+  text-align: center;
+}
+.portfolio-tech{
+  background-color: #888694;
+  width: 332px;
+  height: 37px;
+  position: absolute;
+  display: block;
+}
+.portfolio-tech h4{
+  margin-left: 10px;
+  margin-top: 8px;
+  color: white;
+}
+
+.portfolio-image{
+  width: 332px;
+  height:250px;
+}
+.portfolio-image img{
+  width: inherit;
+  height: inherit;
+}
+.tech-icon{
+  position: relative;
+  top: 50px;
+  left: 15px;
+}
+.tech-icon img{
+  width: 45px;
+  height: 45px;
+  margin: 5px;
+
+}
+
+#footer{
+  height: 90px;
+  background-color: #fdfdfd;
+  position: relative;
+}
+#footer p{
+position: absolute;
+left: 440px;
+}
+#social-media{
+  position: absolute;
+  top: 50px;
+  left: 380px;
+}
+.social-network{
+  display: inline-block;
+}
+.social-network img {
+  width: 18px;
+  height: 18px;
+}
+.social-network a{
+  color: black;
+}
+
+button{
+  text-align: center;
+  font-size: 15px;
+  background-color: #407d61;
+  border-radius: 5px;
+  border: 1px black solid;
+  box-shadow: 2px 2px 5px #888888;
+  padding: 7px, 3px, 7px, 3px;
+  color: white;
+  position: relative;
+  top: 65px;
+  left: 125px;
+}
